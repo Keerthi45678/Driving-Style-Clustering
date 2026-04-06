@@ -1,40 +1,83 @@
 # 🚗 Driving Style Risk Analysis #
 
-## 📌 Overview ##
-This project analyzes driver behavior using machine learning and clustering techniques.
-Drivers are segmented into Eco, Moderate, and Aggressive categories based on driving patterns.
+## 📌 Overview
 
-## ⚙️ Methodology ##
-Data imported from CSV
-Feature engineering (aggression score, jerk)
-K-Means clustering
-Elbow method for optimal clusters
-PCA for visualization
+This project analyzes driver behavior using machine learning and clustering techniques.  
 
-## 🛠️ Technical Workflow ##
-Environment: Google Colab / Python
-Algorithms: K-Means Clustering, Principal Component Analysis (PCA)
-Optimization: Elbow Method (WCSS) & Silhouette Analysis
-Verification: Statistical Audit via Excel (AVERAGEIF validation)
+The objective is to identify distinct driving patterns and classify drivers into meaningful categories based on their behavior.  
 
-## 📊 Visualizations ##
-Pie Chart → Driver distribution
-Bar Chart → Feature comparison
-Histogram → Aggression score distribution
-PCA Plot → Cluster separation
-Elbow Curve → Optimal clusters
+Drivers are segmented into the following groups:
+- **Eco Drivers** → Smooth and fuel-efficient driving style  
+- **Moderate Drivers** → Balanced driving behavior  
+- **Aggressive Drivers** → High-risk driving with sudden acceleration and braking  
 
-## 📈 Insights ##
-Aggressive drivers show higher jerk and braking
-Eco drivers exhibit smoother driving
-Clear separation between clusters
-Useful for insurance pricing models
+## ⚙️ Methodology
 
-## 📁 Files ##
-report.html
-pie_chart.png
-histogram.png
-bar_chart.png
-elbow.png
-pca.png
+- Data imported from CSV files  
+- Performed feature engineering:
+  - Aggression score calculation  
+  - Jerk analysis (sudden acceleration/deceleration)  
+- Applied **K-Means Clustering** to group driving styles  
+- Used **Elbow Method** to determine optimal number of clusters  
+- Applied **PCA (Principal Component Analysis)** for dimensionality reduction and visualization  
 
+
+## 🛠️ Technical Workflow
+
+- **Environment:** Google Colab / Python  
+- **Algorithms Used:**
+  - K-Means Clustering  
+  - Principal Component Analysis (PCA)  
+- **Optimization Techniques:**
+  - Elbow Method (WCSS)  
+  - Silhouette Analysis  
+- **Verification:**
+  - Statistical validation using Excel  
+  - AVERAGEIF-based cross-checking  
+
+## 📈 Insights
+
+- Aggressive drivers show:
+  - Higher jerk values  
+  - Frequent sudden braking  
+
+- Eco drivers exhibit:
+  - Smoother acceleration patterns  
+  - More stable driving behavior  
+
+- Clear separation observed between clusters using PCA  
+
+- Model can be effectively used for:
+  - Usage-Based Insurance (UBI)  
+  - Risk-based premium pricing  
+
+## 📊 Visualizations
+
+### 🟠 Pie Chart – Driver Distribution
+Shows how drivers are divided into Eco, Moderate, and Aggressive categories based on clustering results.
+
+![Pie Chart](images/pie_chart.png)
+
+
+### 🔵 Bar Chart – Feature Comparison
+Compares key driving features such as speed, acceleration, and braking across different driver groups.
+
+![Bar Chart](images/bar_chart.png)
+
+
+### 🟣 Histogram – Aggression Score Distribution
+Displays how aggression scores are distributed among all drivers, helping identify overall driving behavior trends.
+
+![Histogram](images/histogram.png)
+
+
+### 🟢 PCA Plot – Cluster Visualization
+Visualizes the separation of driver clusters in reduced dimensions using Principal Component Analysis.
+
+![PCA Plot](images/pca.png)
+
+
+### 🟡 Elbow Curve – Optimal Clusters
+Helps determine the ideal number of clusters using the Elbow Method (WCSS).
+
+![Elbow Curve](images/elbow.png)
