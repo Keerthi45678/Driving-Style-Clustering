@@ -76,9 +76,4 @@ Drivers are segmented into the following groups:
 
 ## 📄 Project Report
 
-- **HTML Code (view source on GitHub)**  
-  You can view the HTML file directly on GitHub to see all code used for the report.  
-  [View Report Code](report.html)
-
- ## Driving Style Risk Analysis
 **Report:** https://keerthi45678.github.io/driving-style-risk-analysis/report.html
