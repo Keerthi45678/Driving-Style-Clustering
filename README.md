@@ -80,6 +80,5 @@ Drivers are segmented into the following groups:
   You can view the HTML file directly on GitHub to see all code used for the report.  
   [View Report Code](report.html)
 
-- **Full Interactive Report (open in browser via GitHub Pages)**  
-  Once GitHub Pages is enabled, this link will open your full report with all visualizations.  
-  [Open Report](https://Keerthi45678.github.io/driving-style-risk-analysis/report.html)
+ ## Driving Style Risk Analysis
+**Report:** https://keerthi45678.github.io/driving-style-risk-analysis/report.html
