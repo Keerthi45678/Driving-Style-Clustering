@@ -56,28 +56,43 @@ Drivers are segmented into the following groups:
 ### 🟠 Pie Chart – Driver Distribution
 Shows how drivers are divided into Eco, Moderate, and Aggressive categories based on clustering results.
 
-![Pie Chart](images/pie_chart.png)
+![Pie Chart](pie_chart.png)
 
+---
 
 ### 🔵 Bar Chart – Feature Comparison
 Compares key driving features such as speed, acceleration, and braking across different driver groups.
 
-![Bar Chart](images/bar_chart.png)
+![Bar Chart](bar_chart.png)
 
+---
 
 ### 🟣 Histogram – Aggression Score Distribution
 Displays how aggression scores are distributed among all drivers, helping identify overall driving behavior trends.
 
-![Histogram](images/histogram.png)
+![Histogram](histogram.png)
 
+---
 
 ### 🟢 PCA Plot – Cluster Visualization
-Visualizes the separation of driver clusters in reduced dimensions using Principal Component Analysis.
+Visualizes the separation of driver clusters in reduced dimensions using Principal Component Analysis (PCA).
 
-![PCA Plot](images/pca.png)
+![PCA Plot](pca.png)
 
+---
 
 ### 🟡 Elbow Curve – Optimal Clusters
 Helps determine the ideal number of clusters using the Elbow Method (WCSS).
 
-![Elbow Curve](images/elbow.png)
+![Elbow Curve](elbow.png)
+
+---
+
+## 📄 Project Report
+A detailed interactive HTML report has been generated to present the full analysis, including clustering results, feature insights, and visualizations.
+
+<p align="center">
+  <a href="report.html">
+    <b>🔗 View Full HTML Report</b>
+  </a>
+</p>
